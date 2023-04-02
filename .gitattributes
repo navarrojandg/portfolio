@@ -1,1 +1,1 @@
-*.env.* filter=git-crypt diff=git-crypt
+postgres/.env.* filter=git-crypt diff=git-crypt
