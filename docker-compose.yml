@@ -5,8 +5,12 @@ services:
     image: postgres:14.7
     restart: always
     environment:
-      - POSTGRES_PASSWORD=password
-  
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: dev
+    ports:
+      - 5432:5432
+
   adminer:
     image: adminer
     restart: always
