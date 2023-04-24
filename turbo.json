@@ -16,7 +16,7 @@
       "outputs": []
     },
     "dev": {
-      "dependsOn": ["db:migrate"],
+      "dependsOn": ["^build", "db:migrate"],
       "cache": false
     },
     "start": {
