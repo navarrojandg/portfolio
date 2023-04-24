@@ -1,8 +1,0 @@
-{
-  "name": "web",
-  "main": "./index.ts",
-  "types": "./index.ts",
-  "scripts": {},
-  "devDependencies": {},
-  "dependencies": {}
-}
